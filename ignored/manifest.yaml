@@ -3,4 +3,4 @@ version: 1.0.0
 description: An MSI-1
 engine:
   type: ARM
-  templatePath: second.json
+  templatePath: 啊.json
