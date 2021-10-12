@@ -2,6 +2,15 @@
     "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+        "vmName": 
+        {
+            "type": "string",
+            "defaultValue": "simpleLinuxVM",
+            "metadata": 
+            {
+                "description": "The name of your Virtual Machine."
+            }
+        }
     },
     "variables": {
         "resourceNamePrefix": "[take(uniqueString(resourceGroup().id), 3)]",
